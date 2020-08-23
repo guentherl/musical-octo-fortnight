@@ -1,3 +1,5 @@
 checkoutLocation: /
 workspaceLocation: /
 image: docker:latest
+tasks:
+  - command: systemctl start docker 
